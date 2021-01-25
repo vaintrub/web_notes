@@ -54,7 +54,7 @@ sub getNote { # return note by link
     my $note = $dbh->resultset('Note')->find($note_id);
     if (!$note) {
        $self->render(
-           template => 'User/showNotes', 
+           template => 'user/showNotes', 
            login => $self->session('login'), 
            warning => "This note does not exist!", 
            note_text => undef
@@ -63,14 +63,14 @@ sub getNote { # return note by link
         if ($self->session('id_user') == $note->id_user) {
             ###### This note belongs to the user who requested it ######
             $self->render(
-                template => 'User/showNotes', 
+                template => 'user/showNotes', 
                 login => $self->session('login'), 
                 warning => undef, 
                 note_text => $note->note_text);
         } else {
             ###### Not belong ######
             $self->render(
-                template => 'User/showNotes', 
+                template => 'user/showNotes', 
                 login => $self->session('login'), 
                 warning => "This note is not yours, so if you want to change it you must add it by clicking the save button!", 
                 note_text => $note->note_text

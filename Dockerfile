@@ -2,7 +2,7 @@ FROM perl:5.20
 
 RUN cpanm --install --notest \
         DBIx::Class \
-        Mojolicious@8.71 \
+        Mojolicious \
         Digest::CRC \
         Data::Dumper \
         HTML::Entities \
@@ -16,5 +16,5 @@ WORKDIR /usr/src/web-notes
 
 COPY . .
 
-CMD ["hypnotoad", "./script/notes"]
+CMD ["hypnotoad", "-f",  "./script/notes"]
 
