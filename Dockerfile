@@ -2,7 +2,7 @@ FROM perl:5.20
 
 RUN cpanm --install --notest \
         DBIx::Class \
-        Mojolicious \
+        Mojolicious@8.71 \
         Digest::CRC \
         Data::Dumper \
         HTML::Entities \
@@ -10,7 +10,7 @@ RUN cpanm --install --notest \
         Crypt::PBKDF2
 
 
-EXPOSE 8080:8080
+EXPOSE 8080/tcp
 
 WORKDIR /usr/src/web-notes
 
