@@ -12,7 +12,7 @@ RUN cpanm --install --notest \
 
 EXPOSE 8080/tcp
 
-WORKDIR /usr/src/web-notes
+WORKDIR /usr/src/web_notes
 
 COPY . .
 
