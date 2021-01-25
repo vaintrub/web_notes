@@ -6,7 +6,8 @@ RUN cpanm --install --notest \
         Digest::CRC \
         Data::Dumper \
         HTML::Entities \
-        Email::Valid
+        Email::Valid \
+        Crypt::PBKDF2
 
 
 EXPOSE 8080:8080
