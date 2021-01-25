@@ -1,3 +1,3 @@
 # WEB NOTES
 
-descrition will be here soon
+descrption will be here soon
