@@ -5,7 +5,11 @@
 [View Demo](https://web-notes.site)
 
 ----
-This is a simple note taking app. You also can add a picture to a note. This web application describes the basic principles of working with the mojolicious web framework.
+This web application describes the basic principles of working with the mojolicious web framework.
+It complies with the mvc principle.
+
+Implemented user authentication, storing their notes and pictures.
+It is possible to share a note by copying the link to it *(only an authorized user can view the note)*
 
 Sqlite was chosen as storage for users and notes
 
