@@ -5,9 +5,9 @@
 [View Demo](https://web-notes.site)
 
 ----
-...
-...
+This is a simple note taking app. You also can add a picture to a note. This web application describes the basic principles of working with the mojolicious web framework.
 
+Sqlite was chosen as storage for users and notes
 ----
 
 ## Development
@@ -41,6 +41,6 @@ It launches the site in a container, it will then be hosted at `http://localhost
 ----
 ## ☑️ TODO
 - [ ] Add scalability to the frontend (Mobile support)🤦
-- [x] something
-
-
+- [x] Make password and login validation on the client side
+- [ ] Make sharing notes more convenient
+- [ ] Check security for attacks
