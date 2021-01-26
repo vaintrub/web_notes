@@ -8,6 +8,7 @@
 This is a simple note taking app. You also can add a picture to a note. This web application describes the basic principles of working with the mojolicious web framework.
 
 Sqlite was chosen as storage for users and notes
+
 ----
 
 ## Development
