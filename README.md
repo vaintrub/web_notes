@@ -42,6 +42,5 @@ It launches the site in a container, it will then be hosted at `http://localhost
 ## ☑️ TODO
 - [ ] Add scalability to the frontend (Mobile support)🤦
 - [x] something
-----
 
 
