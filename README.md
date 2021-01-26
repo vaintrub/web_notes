@@ -15,7 +15,7 @@ Sqlite was chosen as storage for users and notes
 
 ----
 
-## Development
+## Deployment
 
 ### Locally
 
