@@ -14,8 +14,7 @@
 
 ### Locally
 
-Before you start make sure you have the dependencies and perl 5.20.
-***Note:** You can see the required dependencies in the dockerfile*
+Before you start make sure you have the dependencies and perl 5.20. You can see the required dependencies in the dockerfile.
 
 1. Fork and or clone this repository locally
 2. `cd web_notes`
