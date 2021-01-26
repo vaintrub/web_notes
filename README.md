@@ -1,4 +1,4 @@
-# web-notes 
+# [web-notes](https://web-notes.site)
 
 *A simple web application for notes. Powered by Perl and Mojolicious.*  
 
