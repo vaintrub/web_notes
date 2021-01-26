@@ -5,13 +5,8 @@
 [View Demo](https://web-notes.site)
 
 ----
-## ☑️ TODO
-- [ ] Add scalability to the frontend (Mobile support)🤦
-- [x] something
-----
-
-Here will be screenshot
-
+...
+...
 
 ----
 
@@ -42,5 +37,11 @@ docker run --rm -d --name notes -p 8080:8080 notes
 `-v /Your/local/path/web_notes/storage:/usr/src/web_notes/storage`*
 
 It launches the site in a container, it will then be hosted at `http://localhost:8080`
+
+----
+## ☑️ TODO
+- [ ] Add scalability to the frontend (Mobile support)🤦
+- [x] something
+----
 
 
