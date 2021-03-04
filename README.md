@@ -45,6 +45,7 @@ It launches the site in a container, it will then be hosted at `http://localhost
 
 ----
 ## ☑️ TODO
+- [ ] Create unit tests!
 - [ ] Add scalability to the frontend (Mobile support)🤦
 - [x] Make password and login validation on the client side
 - [ ] Make sharing notes more convenient
