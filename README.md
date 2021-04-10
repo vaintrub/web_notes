@@ -1,8 +1,6 @@
-# [web-notes](https://web-notes.site)
+# web-notes
 
 *A simple web application for notes. Powered by Perl and Mojolicious.*  
-
-[View Demo](https://web-notes.site)
 
 ----
 This web application describes the basic principles of working with the mojolicious web framework.
